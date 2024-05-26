@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.login {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1e1e1e;
+}
+
+.login img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.15;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.component1 {
+  position: absolute;
+  top: 194px;
+  left: 419px;
+  width: 601px;
+  height: 104px;
+}
+
+.component11 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.childPosition {
+  border-radius: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.welcome {
+  font-size: 65px;
+  font-weight: 700;
+  color: #f0eee2;
+  text-align: center;
+  position: absolute;
+  top: 12.5%;
+  left: 0%;
+  width: 93.73%;
+}
+
+.username-container,
+.password-container {
+  position: absolute;
+  margin-bottom: 20px;
+}
+
+.username,
+.password {
+  border: 1px solid #f0eee2;
+  border-radius: 5px;
+  padding: 10px;
+  width: 465px;
+  height: 50px;
+  font-size: 18px;
+}
+
+.login1 {
+  position: absolute;
+}
+
+.login2 {
+  color: #fff;
+  font-size: 35px;
+  text-align: center;
+}
+
+.usernameChild,
+.passwordChild {
+  background-color: #f0eee2;
+  opacity: 0.13;
+}
+
+.forgotPassword {
+  font-size: 20px;
+  color: #fff;
+  text-align: left;
+  position
